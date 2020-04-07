@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xiaolee.spring.cloud.autoconfig.MyAutoConfiguration
