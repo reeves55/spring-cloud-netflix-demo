@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://gitee.com/kuibugogo/spring-cloud-config-center
+          search-paths: respo
+          username:
+          password:
+
+server:
+  port: 12000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
